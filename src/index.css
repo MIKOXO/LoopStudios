@@ -30,7 +30,7 @@
     background: linear-gradient(
         180deg,
         rgba(8, 5, 5, 0.5),
-        rgba(34, 34, 34, 0.3)
+        rgba(34, 34, 34, 0.6)
       ),
       url("./assets/desktop/image-hero.jpg");
     background-position: center;
