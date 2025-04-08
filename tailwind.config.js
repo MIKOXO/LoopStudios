@@ -10,8 +10,8 @@ export default {
       },
     },
     fontFamily: {
-      sans: ["Alata", "sans-serif"],
-      sans2: ["Josefin Sans", "sans-serif"],
+      alata: ["Alata", "sans-serif"],
+      josefin: ["Josefin Sans", "sans-serif"],
     },
   },
   plugins: [],

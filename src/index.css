@@ -4,3 +4,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link {
+  @apply relative text-white font-medium cursor-pointer after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:w-1/2 after:h-0.5 after:bg-white after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300;
+}
+
+@media (max-width: 767px) {
+  .head {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 5, 5, 0.5),
+        rgba(34, 34, 34, 0.3)
+      ),
+      url("./assets/mobile/image-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .head {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 5, 5, 0.5),
+        rgba(34, 34, 34, 0.3)
+      ),
+      url("./assets/desktop/image-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+}
