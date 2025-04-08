@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import image1 from "../assets/desktop/image-interactive.jpg";
 import image2 from "../assets/mobile/image-interactive.jpg";
@@ -9,10 +8,10 @@ const About = () => {
       <div className="flex flex-col gap-4 justify-between items-center lg:items-end lg:flex-row">
         <div>
           <img src={image2} className="block lg:hidden" />
-          <img src={image1} className="hidden w-[150rem] lg:block" />
+          <img src={image1} className="hidden w-[200rem] lg:block" />
         </div>
-        <div className="text-center bg-white lg:text-left lg:relative md:px-16 md:pt-6 md:-left-36">
-          <h1 className="uppercase text-4xl font-light my-4 xl:text-6xl">
+        <div className="text-center bg-white lg:text-left lg:relative md:px-16 md:pt-10 md:-left-36">
+          <h1 className="uppercase text-4xl font-light my-4 xl:text-5xl">
             The leader in interactive vr
           </h1>
           <p className="font-alata opacity-50 w-[90%] mx-auto lg:mx-0 lg:w-full">
